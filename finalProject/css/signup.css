@@ -78,7 +78,7 @@ main form label{
 main form input,
 main form textarea {
     display: block;
-    margin-bottom: 10px; /* Add some space between form elements */
+    margin-bottom: 10px; 
     padding-right: 3rem; 
     
     
