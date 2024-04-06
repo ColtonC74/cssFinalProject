@@ -136,6 +136,6 @@ footer p:nth-of-type(2){
 
 @media (min-width: 768px) {
     .plan-section {
-        flex-direction: row; /* Arrange items horizontally on larger screens */
+        flex-direction: row; 
     }
 }
