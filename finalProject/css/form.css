@@ -1,0 +1,110 @@
+html{
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: linear-gradient(to right, #fbecfb, #bb92db); */
+    color: #bb92db;
+    background-color: #fbecfb; 
+    padding: 1rem;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+    margin-top: 27px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fbecfb; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border: 1px solid #fbecfb; 
+    border-radius: 5px; 
+}
+
+nav ul li a:hover {
+    background-color: #fff; 
+    color: #bb92db;
+}
+/* #fff, #bb92db, #fbecfb */
+
+img {
+    border: 5px solid #bb92db; 
+}
+
+header{
+    background-color: #bb92db;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #fbecfb;
+}
+header h1 {
+    margin: 0;
+}
+header h2 {
+    margin-bottom: 0;
+}
+header img {
+    margin-bottom: 2rem;
+    
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+section {
+    flex: 1 1 calc(50% - 2rem);
+    margin: 1rem;
+    text-align: center;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Lexend", sans-serif;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+section h2{
+    align-items: center;
+    text-align: center;
+}
+section img{
+    display: inline-block;
+}
+
+
+
+
+footer{
+    color: #fbecfb;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #bb92db;
+}
+footer p:nth-of-type(2){
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
